@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tstillwell/nightwatch-playground#readme",
   "dependencies": {
+    "chromedriver": "^2.46.0",
     "nightwatch": "^1.0.19"
   }
 }
