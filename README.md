@@ -12,6 +12,6 @@ To run all tests
 
 `node nightwatch`
 
-To run specific tests
+To run a specific test
 
 `node nightwatch tests/sample.js`
