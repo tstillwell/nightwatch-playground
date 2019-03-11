@@ -11,3 +11,7 @@ Clone repo & install dependencies
 To run all tests
 
 `node nightwatch`
+
+To run specific tests
+
+`node nightwatch tests/sample.js`
