@@ -8,3 +8,6 @@ Clone repo & install dependencies
 
 `npm install`
 
+To run all tests
+
+`node nightwatch`
