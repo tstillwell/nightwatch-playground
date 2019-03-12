@@ -1,5 +1,5 @@
 module.exports = {
-  'Demo test Google' : function (browser) {
+  'Google Search Text' : function (browser) {
     browser
       .url('http://www.google.com')
       .waitForElementVisible('body')
