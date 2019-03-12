@@ -15,3 +15,6 @@ To run all tests
 To run a specific test
 
 `node nightwatch tests/sample.js`
+
+Nightwatch API Docs
+> http://nightwatchjs.org/api#
