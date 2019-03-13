@@ -1,0 +1,19 @@
+{
+  "name": "nightwatch-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tstillwell/nightwatch-playground.git"
+  },
+  "author": "Tristan Stillwell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tstillwell/nightwatch-playground/issues"
+  },
+  "homepage": "https://github.com/tstillwell/nightwatch-playground#readme"
+}
