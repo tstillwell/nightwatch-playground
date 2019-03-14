@@ -6,7 +6,7 @@ module.exports = {
     browser
       .url('http://www.google.com')
       .waitForElementVisible('body')
-      .setValue('input[type=text]', 'nightwatch')
+      .setValue('input[type=text]', 'nightwatchjs')
       .waitForElementVisible('input[name=btnK]')
       .click('input[name=btnK]')
       .pause(1000)
