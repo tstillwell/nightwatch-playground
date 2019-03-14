@@ -1,5 +1,5 @@
 const fs = require('fs');
-const outFilePath = './tests_output/out.txt'
+const outFilePath = './tests/out.txt'
 
 module.exports = {
   'Output to file' : function (browser) {
@@ -11,8 +11,10 @@ module.exports = {
       .click('input[name=btnK]')
       .pause(1000)
       .getText("#main", (result) => {
-        fs.writeFile(outFilePath, result.value);
-      })
+        fs.writeFile(outFilePath, result.value, () => {
+          console.log('Output file written')}
+        )}
+      )
       .end();
   }
 };
