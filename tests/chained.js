@@ -1,5 +1,5 @@
 module.exports = {
-  'Step1' : function (browser) {
+  'Step1' : (browser) => {
     browser
       .url('http://www.google.com')
       .waitForElementVisible('body')
