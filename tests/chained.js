@@ -10,7 +10,7 @@ module.exports = {
       .assert.containsText('#main', 'Night Watch')
       .end();
   },
-  'Step2' : function (browser) {
+  'Step2' : (browser) => {
     browser
       .url('http://www.google.com')
       .waitForElementVisible('body')
