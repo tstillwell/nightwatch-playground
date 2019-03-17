@@ -1,5 +1,5 @@
 module.exports = {
-  '#main visible' : (browser) => {
+  'Enter value in search then clear it' : (browser) => {
     browser
       .url('http://www.google.com')
       .waitForElementVisible('body')
