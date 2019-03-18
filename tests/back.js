@@ -1,5 +1,5 @@
 module.exports = {
-  'Click search button' : (browser) => {
+  'Use back button' : (browser) => {
     browser
       .url('http://www.google.com')
       .waitForElementVisible('body')
