@@ -1,5 +1,5 @@
 module.exports = {
-  'Resize window' : (browser) => {
+  'Move to #navcnt element' : (browser) => {
     browser
       .url('http://www.google.com')
       .waitForElementVisible('body')
