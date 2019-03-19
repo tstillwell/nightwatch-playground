@@ -2,7 +2,7 @@ const fs = require('fs');
 const outFilePath = './tests/out.txt'
 
 module.exports = {
-  'Output to file' : (browser) => {
+  'Get #main text' : (browser) => {
     browser
       .url('http://www.google.com')
       .waitForElementVisible('body')
