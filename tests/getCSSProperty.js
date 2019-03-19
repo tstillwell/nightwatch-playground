@@ -1,5 +1,5 @@
 module.exports = {
-  'Retrieve size of #main' : (browser) => {
+  'Retrieve width of #main' : (browser) => {
     browser
       .url('http://www.google.com')
       .waitForElementVisible('body')
