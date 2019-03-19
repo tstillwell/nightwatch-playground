@@ -1,6 +1,3 @@
-const fs = require('fs');
-const outFilePath = './tests/out.txt'
-
 module.exports = {
   'Get #main text' : (browser) => {
     browser
