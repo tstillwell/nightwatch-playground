@@ -1,5 +1,5 @@
 module.exports = {
-  'Get #main text' : (browser) => {
+  'Get current cookies' : (browser) => {
     browser
       .url('http://www.google.com')
       .waitForElementVisible('body')
